@@ -1,0 +1,45 @@
+body {
+   background-image: url(imej/1221.jpg);
+}
+
+table {
+    font-family: verdana; 
+    font-size: 12px; 
+    font-weight: normal; 
+    width: 650px;
+    margin: 0px auto;
+    text-align: center;
+    border-collapse: collapse; 
+    
+}
+
+caption {
+    font-size: 16px; 
+    font-weight: bold; 
+    color:  white; 
+    padding: 8px;
+}
+
+td, th {
+    padding: 8px; 
+    border: 2px solid Navy;
+}
+
+td.nama {
+    width:150px; 
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: steelblue;
+}
+
+tr:nth-child(even) {
+    background-color: powderblue;
+}
+
+th {
+    font-weight: bold; 
+    color: white; 
+    background-color: mediumblue;
+}
